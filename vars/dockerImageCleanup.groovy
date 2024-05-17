@@ -1,7 +1,7 @@
 def call(String project, String ImageTag, String hubUser){
     
     sh """
-     docker rmi $amrapalip/$CICD:latest
+     docker rmi $amrapalip/$CICD-demo:latest
     """
 }
 
